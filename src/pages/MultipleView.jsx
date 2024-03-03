@@ -8,6 +8,7 @@ const MultipleView = () => {
         <Profile name="Cow" age="5" weight="1100" tag="1236"/>
         <Profile name="More Cow" age="6" weight="1150" tag="1237"/>
         <Profile name="Yet Another Cow" age="3" weight="975" tag="1238"/>
+        <Profile name="One Final Cow" age="4" weight="5000" tag="1239"/>
     </div>
   )
 }

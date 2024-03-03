@@ -1,4 +1,6 @@
 .multipleview {
     display: flex;
     flex-wrap: wrap;
+    justify-content: end;
+    row-gap: 1em;
 }

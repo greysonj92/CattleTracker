@@ -8,7 +8,7 @@ const Profile = (props) => {
         <img src={cow} alt="A cow"></img>
         <li>Tag: {props.tag}</li>
         <li>Age: {props.age}</li>
-        <li>Weight: {props.weight}lbs</li>
+        <li>Weight: {props.weight} lbs</li>
             <Lineage></Lineage>
     </div>
   )
