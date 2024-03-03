@@ -1,0 +1,12 @@
+.profile {
+    overflow:hidden;
+    transition-duration: 0.8s;
+    transition-property: transform;
+}
+
+/* What a shame, such a useful feature
+.profile:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+*/
