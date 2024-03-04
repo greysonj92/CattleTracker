@@ -1,11 +1,11 @@
 import cow from '../images/cow.jpg';
 import CowCRUD from './CowCRUD';
 import Lineage from './Lineage';
-import { List, ListItem, ListItemText } from '@mui/material';
+import { List, ListItem, ListItemText, Box, Container } from '@mui/material';
 import './Profile.css';
 const Profile = (props) => {
   return (
-    <div className='profile'>
+    <Container>
         <h3>{props.name}</h3>
         <img src={cow} alt="A cow"></img>
         <CowCRUD />
@@ -21,7 +21,7 @@ const Profile = (props) => {
           </ListItem>
         </List>
             <Lineage></Lineage>
-    </div>
+    </Container>
   )
 }
 export default Profile
