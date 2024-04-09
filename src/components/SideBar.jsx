@@ -42,7 +42,7 @@ export default function TemporaryDrawer() {
       <List>
         {['Log In', 'Add Animal', 'Log Out'].map((text, index) => (
           <ListItem key={text}>
-            <ListItemButton>
+            <ListItemButton onClick={() => alert(`You clicked ${text}!`)}>
               <ListItemIcon>
                {pickIcon(text)} 
               </ListItemIcon>
