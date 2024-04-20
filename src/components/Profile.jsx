@@ -8,7 +8,7 @@ const Profile = (props) => {
   return (
     <Container>
       {console.log("Props: ",props)}
-        <h3>{props.tag_number}</h3>
+        <h3>Tag number: {props.tag_number}</h3>
         <img src={cow} alt="A cow"></img>
         <CowCRUD />
         <List>
