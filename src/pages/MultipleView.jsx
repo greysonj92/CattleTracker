@@ -28,7 +28,7 @@ const MultipleView = () => {
       <TopBar></TopBar>
       <Stack>
         {animals && animals.map((animal) => (
-          <Profile tag={animal.tag_number} />
+          <Profile {...animal} />
         ))}
       </Stack>
     </div>
