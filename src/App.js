@@ -8,7 +8,7 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import LoginForm from './components/Login.jsx';
+import SignIn from './components/LoginMUI.jsx';
 
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<MultipleView/>} />
-          <Route path='Login' element={<LoginForm/>} />
+          <Route path='Login' element={<SignIn/>} />
         </Routes>
       </Router>
     </div>
